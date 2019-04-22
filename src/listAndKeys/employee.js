@@ -5,19 +5,14 @@ const employee = (props) => {
 		<div>
 			<table>
 				<thead>
-					<tr>
-						<th>
-							Name
-						</th>
-						<th>
-							Age
-						</th>
-					</tr>
+					
 				</thead>
 				<tbody>
 					<tr>
 						<td>{props.name}</td>
-						<td>{props.name}</td>
+						<td>{props.age}</td>
+						<td><button onClick={props.deleteUser}>Delete User</button></td>
+						<td><input type="text" onChange={props.changeName}/></td>
 					</tr>
 				</tbody>
 			</table>
