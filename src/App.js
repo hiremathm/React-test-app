@@ -6,6 +6,9 @@ import Employees from './listAndKeys/employee'
 import UniqueId from 'react-html-id'
 import Student from './fragments/student'
 import ParentLifeCycle from './lifeCycle/parentLifeCycle'
+import PureComponent from './pureComponents/pureComponent'
+import Route from './router/route'
+import RefsParameter from './refsParameters/refs'
 import './App.css';
 
 class App extends Component {
@@ -80,6 +83,12 @@ class App extends Component {
   			<br/>
   			<ParentLifeCycle />
   			<br/>
+        <PureComponent />
+        <br/>
+        <Route />
+        <br/>
+        <RefsParameter />
+        <br/><br/><br/>
   		</div>
     )
   }
